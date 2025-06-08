@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SWIPE | Influencer Marketing</title>
+  <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css">
+  <link rel="stylesheet" href="styles/main.css">
+  <link href="https://fonts.googleapis.com/css2?family=Satoshi:wght@700;900&family=DM+Sans:wght@400;500&display=swap" rel="stylesheet">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Satoshi:wght@700;900&family=DM+Sans:wght@400;500&display=swap');
+  </style>
+</head>
+<body>
+  <!-- 3D Background -->
+  <canvas id="3d-bg"></canvas>
+
+  <!-- Floating Cursor Effect -->
+  <div class="cursor"></div>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <h1>SWIPE RIGHT ON YOUR NEXT COLLAB <span class="emoji-fire">🔥</span></h1>
+    <button id="cta-btn" class="neon-button">MEET YOUR MATCH →</button>
+    <div class="scroll-hint">
+      <div class="mouse"></div>
+      <p>SWIPE DOWN</p>
+    </div>
+  </section>
+
+  <!-- Influencer Swipe Deck -->
+  <section class="swipe-section">
+    <div class="swiper-container">
+      <div class="swiper-wrapper" id="influencer-cards"></div>
+      <div class="swipe-controls">
+        <button class="swipe-left">👎</button>
+        <button class="swipe-right">❤️</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Stats Wall -->
+  <section class="stats-wall">
+    <div class="stat-box">
+      <h3>Successful Collabs</h3>
+      <div class="stat" data-count="4200000">0</div>
+    </div>
+    <div class="stat-box">
+      <h3>Avg. Engagement</h3>
+      <div class="stat" data-count="87">0%</div>
+    </div>
+  </section>
+
+  <!-- Scripts -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
+  <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+  <script src="scripts/confetti.js"></script>
+  <script src="scripts/main.js"></script>
+</body>
+</html>

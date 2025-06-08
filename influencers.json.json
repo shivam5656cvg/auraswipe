@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Alex Rivera",
+    "followers": "1.2M",
+    "engagement": 8.7,
+    "niche": "Tech | Gaming | Unboxing"
+  },
+  {
+    "name": "Zara Lee",
+    "followers": "3.5M",
+    "engagement": 12.4,
+    "niche": "Beauty | Fashion | Lifestyle"
+  },
+  {
+    "name": "Jay Castro",
+    "followers": "800K",
+    "engagement": 6.3,
+    "niche": "Comedy | Pranks | Vlogs"
+  },
+  {
+    "name": "Mia Chen",
+    "followers": "2.1M",
+    "engagement": 9.8,
+    "niche": "Cooking | Travel | DIY"
+  },
+  {
+    "name": "Ryan Park",
+    "followers": "5.7M",
+    "engagement": 15.2,
+    "niche": "Dance | Challenges | Music"
+  }
+]
